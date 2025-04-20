@@ -1,0 +1,65 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# dotenv environment variables
+.env
+.env.*
+
+# Build output
+dist/
+build/
+
+# Vite cache
+.vite/
+.cache/
+
+# Logs
+logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# JetBrains IDEs
+/shelf/
+/workspace.xml
+
+# Editor-based HTTP Client requests
+/httpRequests/
+
+# Test coverage
+coverage/
+
+# Optional: if using Mac/Linux
+*.swp
+*.swo
+
+# Optional: if using Windows
+*.lnk
+
+# Firebase, if used
+.firebaserc
+.firebase/
+
+# MongoDB local database dump
+dump/
+
+# GraphQL generated files (if using codegen)
+__generated__/
+
+# Apollo client cache (if persisted)
+apollo-cache.json
+
+# Misc
+*.tgz
